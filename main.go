@@ -24,7 +24,7 @@ func SaveData(id int) {
 }
 
 func main() {
-	startId := 202328
+	startId := 100000
 	for id := startId; id < (startId * 10); id++ {
 		SaveData(id)
 	}
